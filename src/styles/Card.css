@@ -1,0 +1,10 @@
+.card {
+  width: 100%;
+  padding: 2.5em 0 0 0;
+}
+
+@media only screen and (min-width: 520px) {
+  .card {
+    width: 420px;
+  }
+}

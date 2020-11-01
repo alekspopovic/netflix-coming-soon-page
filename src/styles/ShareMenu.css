@@ -1,0 +1,58 @@
+.shareMenu {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--black-transparent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  z-index: 2;
+  animation: 0.3s ease-in-out slideIn;
+}
+
+@keyframes slideIn {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.shareTitle {
+  font-size: 1.3em;
+}
+
+.shareItem {
+  display: flex;
+  flex-direction: row;
+  margin: 0.75em 0;
+  align-items: center;
+}
+
+.shareIcon {
+  width: 25px;
+  background-color: var(--button-grey);
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 1em;
+}
+
+.shareText {
+  font-size: 1.3em;
+}
+
+.closeButton {
+  position: absolute;
+  bottom: 2em;
+  padding: 1.5em;
+  border-radius: 50%;
+}
+
+.closeIcon {
+  width: 30px;
+}

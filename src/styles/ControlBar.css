@@ -1,0 +1,42 @@
+.controlBar {
+  padding: 0 1em;
+  margin: 1.5em 0;
+  display: flex;
+}
+
+.titleLogo {
+  width: 30%;
+}
+
+.controls {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2em;
+  align-items: center;
+}
+
+.controlLabel {
+  font-size: 0.75em;
+  font-weight: 400;
+  color: var(--grey);
+}
+
+i.icon {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.remindMeChecked {
+  color: var(--green);
+}
+
+.shareChecked {
+  color: var(--red);
+}

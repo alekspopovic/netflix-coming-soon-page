@@ -1,0 +1,47 @@
+.mainMenu {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: var(--menu-grey);
+  color: var(--grey);
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0.75em 0;
+  z-index: 1;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuIcon {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 0.2em;
+}
+
+.menuLabel {
+  font-size: 0.7em;
+}
+
+.active {
+  color: var(--white);
+  position: relative;
+}
+
+.active::before {
+  content: "1";
+  background-color: var(--red);
+  position: absolute;
+  right: 1em;
+  top: -0.5em;
+  width: 1.25em;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 0.7em;
+  padding: 2px;
+}
