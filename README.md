@@ -1,2 +1,2 @@
 # netflix-coming-soon-page
-Source code for creating Netflix's Coming Soon page in React.  Used in my Youtube tutorial found here:
+Source code for creating Netflix's Coming Soon page in React.  Used in my Youtube tutorial found here: https://youtu.be/lEXc1UTTLzc
